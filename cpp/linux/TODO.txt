@@ -1,2 +1,5 @@
 1. Make this project have separate directories.
 2. Figure out this cmake shit
+3. Fix my git so i dont have to put my name in eveytime
+4. Cool parallel
+- Dynamic boundaries
