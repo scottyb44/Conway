@@ -9,6 +9,6 @@ find_package(Catch2 CONFIG REQUIRED)
 
 include_directories(${CMAKE_SOURCE_DIR}/lib)
 
-add_executable(ConwayMaster conway_main.cpp)
+add_executable(ConwayMaster exe/conway_main.cpp)
 #set_property(TARGET Conway PROPERTY CXX_STANDARD 17)
 #target_link_libraries(Conway PRIVATE ${CMAKE_SOURCE_DIR})
