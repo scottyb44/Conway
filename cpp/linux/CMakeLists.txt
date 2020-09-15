@@ -7,8 +7,7 @@ find_package(PNGwriter CONFIG REQUIRED)
 #find_package(Catch2 PATHS /home/sbartlett/vcpkg/ NO_DEFAULT_PATH)
 find_package(Catch2 CONFIG REQUIRED)
 
-include_directories(${CMAKE_SOURCE_DIR}/lib)
-
-add_executable(ConwayMaster exe/conway_main.cpp)
+add_subdirectory(exe)
+add_subdirectory(lib)
 #set_property(TARGET Conway PROPERTY CXX_STANDARD 17)
 #target_link_libraries(Conway PRIVATE ${CMAKE_SOURCE_DIR})

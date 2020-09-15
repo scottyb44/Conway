@@ -12,9 +12,13 @@ void Grid::PrintToFile()
 {
     std::ofstream output;
     output.open("Grid.txt");
-    for (const auto row : grid)
+    for (const auto& row : grid)
     {
-        output << row;
+        for (const auto& item : row)
+        {
+            output << item << " ";
+        }
+        output << "\n";
     }
     output.close();
 }

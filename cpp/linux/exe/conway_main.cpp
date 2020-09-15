@@ -3,8 +3,7 @@
 
 int main()
 {
-	std::cout << "Hello" << std::endl;
-	//Game game;
+	Game game;
 //	game.PrintGridToFile();
 	return 0;
 }

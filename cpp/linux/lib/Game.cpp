@@ -1,7 +1,6 @@
 #include "Game.h"
 
-Game::PrintGridToFile()
+void Game::PrintGridToFile()
 {
     m_grid.PrintToFile();
-
 }
