@@ -3,3 +3,5 @@
 3. Fix my git so i dont have to put my name in eveytime
 4. Cool parallel
 - Dynamic boundaries
+- Do it functionally
+- How to better deal with the boundaries?
