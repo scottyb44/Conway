@@ -4,6 +4,6 @@
 int main()
 {
 	Game game;
-	game.PrintGridToFile();
+	game.RunLife();
 	return 0;
 }
